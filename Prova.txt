@@ -1,0 +1,15 @@
+print("Paulo Ricardo e Patricia dos Santos")
+print(" Pergunta 1- Integrated Development Envivonments(você coloca código e ela já abri o site que você criou")
+print(" Pergunta 2- O dono do Git é a Microsoft e o dono do GitHub é Mac0s")
+print(" Pergunta 3- : O versionamento de Código é importante pois ele é um processo de manter um registro de alteração feita,Snapshots(Salva tudo, com muita alteração,Deltas(salva somente o que você alterou, e tambem temos os sitemas de salvamento, tanto local, tanto distribuido ou centallizado )")
+
+
+
+class Dados:
+    def __init__(self, nome):
+        self.nome = []
+        self.nome.append(nome)
+        input("Digite seu nome:")
+      
+dados = Dados()
+print(dados.get_nome})
